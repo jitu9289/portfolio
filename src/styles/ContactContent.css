@@ -1,0 +1,80 @@
+.contact-contents {
+    text-align: center;
+}
+
+.contact-heading{
+    margin-top: 5rem;
+    font-size: 5rem;
+}
+
+
+.contact-container {
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:4px;
+}
+
+@media screen and (max-width:740px) {
+    .contact-container{
+        max-width: 90%;
+        margin: auto;
+        margin-left: 2rem;
+        grid-template-columns: 1fr;
+    }
+
+    .contact-heading{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    
+}
+
+
+.bounce {
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 0.5s infinite linear;
+    -o-animation: bounce 0.5s infinite linear;
+    -webkit-animation: bounce 0.5s infinite linear;
+    animation: bounce 0.5s infinite linear;
+  }
+
+  .fa {
+    font-size: 3em;
+    margin: 20px;
+    color:"#fff";
+  }
+
+  @-webkit-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-moz-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-o-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2000em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-ms-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
