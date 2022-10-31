@@ -13,9 +13,11 @@
 }
 .about .left{
     text-align: center;
-    margin: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
     padding: 1rem;
-    max-width: 350px;
+    max-width: 46rem;
 }
 
 .about .left p{
