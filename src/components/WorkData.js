@@ -6,7 +6,7 @@ const projectCardData =[
         imgsrc : pro1,
         title : "Ecommerce Website",
         text : "MERN tech stack-based E-commerce website that allows people to buy and sell physical electronics goods and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can also process orders, and accept payments.",
-        view : "https://proshopjitu.herokuapp.com/",
+        view : "https://proshop-jitu.onrender.com/",
         source: "https://github.com/jitu9289/MERN_Proshop_webSite"
     },
     {
@@ -21,7 +21,7 @@ const projectCardData =[
         imgsrc : pro3,
         title : "TIC-TAC-TOE Game",
         text : "A web-based tic-tac-toe game built using React.js which is an alternative to a paper-and-pencil game for two players who take turns marking the spaces in a grid with X or O.",
-        view : "https://tictactoe-mania.herokuapp.com/",
+        view : "https://tic-tac-toe-tb2s.onrender.com/",
         source:"https://github.com/jitu9289/tic-tac-toe"
     },
 ]
